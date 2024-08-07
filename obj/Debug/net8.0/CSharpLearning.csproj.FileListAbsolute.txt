@@ -1,0 +1,14 @@
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\bin\Debug\net8.0\CSharpLearning.exe
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\bin\Debug\net8.0\CSharpLearning.deps.json
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\bin\Debug\net8.0\CSharpLearning.runtimeconfig.json
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\bin\Debug\net8.0\CSharpLearning.dll
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\bin\Debug\net8.0\CSharpLearning.pdb
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.AssemblyInfoInputs.cache
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.AssemblyInfo.cs
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.csproj.CoreCompileInputs.cache
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.dll
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\refint\CSharpLearning.dll
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.pdb
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\CSharpLearning.genruntimeconfig.cache
+C:\Users\toeto\OneDrive\Desktop\CSharpLearning\obj\Debug\net8.0\ref\CSharpLearning.dll
