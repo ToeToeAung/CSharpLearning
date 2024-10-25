@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\toeto\\OneDrive\\Desktop\\CSharpLearning\\CSharpLearning.csproj": {}
+    "C:\\Project\\Teaching\\CSharp8Feature\\CSharp8DotNetCore3\\CSharpLearning.csproj": {}
   },
   "projects": {
-    "C:\\Users\\toeto\\OneDrive\\Desktop\\CSharpLearning\\CSharpLearning.csproj": {
+    "C:\\Project\\Teaching\\CSharp8Feature\\CSharp8DotNetCore3\\CSharpLearning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\toeto\\OneDrive\\Desktop\\CSharpLearning\\CSharpLearning.csproj",
+        "projectUniqueName": "C:\\Project\\Teaching\\CSharp8Feature\\CSharp8DotNetCore3\\CSharpLearning.csproj",
         "projectName": "CSharpLearning",
-        "projectPath": "C:\\Users\\toeto\\OneDrive\\Desktop\\CSharpLearning\\CSharpLearning.csproj",
+        "projectPath": "C:\\Project\\Teaching\\CSharp8Feature\\CSharp8DotNetCore3\\CSharpLearning.csproj",
         "packagesPath": "C:\\Users\\toeto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\toeto\\OneDrive\\Desktop\\CSharpLearning\\obj\\",
+        "outputPath": "C:\\Project\\Teaching\\CSharp8Feature\\CSharp8DotNetCore3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

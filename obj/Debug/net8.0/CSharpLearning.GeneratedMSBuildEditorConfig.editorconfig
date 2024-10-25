@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = CSharpLearning
-build_property.ProjectDir = C:\Users\toeto\OneDrive\Desktop\CSharpLearning\
+build_property.ProjectDir = C:\Project\Teaching\CSharp8Feature\CSharp8DotNetCore3\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
