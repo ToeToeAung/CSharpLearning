@@ -1,4 +1,4 @@
-﻿LeetCode obj =new LeetCode();
+﻿      /*LeetCode obj =new LeetCode();
       int[][] grid1 = {
             new int[] {1, 3, 5},
             new int[] {2, 4, 6},
@@ -12,4 +12,7 @@
         };
 
         Console.WriteLine("Max Moves (Test Case 1): " + obj.MaxMoves(grid)); 
+
+ */
+
 
