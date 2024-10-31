@@ -18,17 +18,23 @@ int[][]  grid = {new int[] {2,4,3,5},
 
 using System.Numerics;
 
-MinDistanceRobot b=new MinDistanceRobot();
-List<int> lst= new List<int>();
-lst.Add(0);
-lst.Add(4);
-lst.Add(6);
+// MinDistanceRobot b=new MinDistanceRobot();
+// List<int> lst= new List<int>();
+// lst.Add(0);
+// lst.Add(4);
+// lst.Add(6);
 
- int[][] factory1 = new int[][]
-        {
-            new int[] { 2, 2 },
-            new int[] { 6, 2 }
-        };
-long result = b.MinimumTotalDistance(lst,factory1);
+//  int[][] factory1 = new int[][]
+//         {
+//             new int[] { 2, 2 },
+//             new int[] { 6, 2 }
+//         };
+// long result = b.MinimumTotalDistance(lst,factory1);
 
-Console.WriteLine("The result is " + result);
+// Console.WriteLine("The result is " + result);
+
+SplitarrayLargestSum obj=new SplitarrayLargestSum();
+int[] nums = {7,2,5,10,8};
+int largestSum = obj.SplitArray(nums,2);
+
+Console.WriteLine("Largest Sum value is "+ largestSum);
