@@ -5,7 +5,7 @@ public interface IStudent{
     void Name();
 }
 
-public interface ISchool{
+public interface ISchool: IStudent{
     void DressCode(){
       Console.WriteLine("While and Orange Overwritten");  
     }
