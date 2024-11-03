@@ -33,8 +33,12 @@ using System.Numerics;
 
 // Console.WriteLine("The result is " + result);
 
-SplitarrayLargestSum obj=new SplitarrayLargestSum();
-int[] nums = {7,2,5,10,8};
-int largestSum = obj.SplitArray(nums,2);
+// SplitarrayLargestSum obj=new SplitarrayLargestSum();
+// int[] nums = {7,2,5,10,8};
+// int largestSum = obj.SplitArray(nums,2);
 
-Console.WriteLine("Largest Sum value is "+ largestSum);
+// Console.WriteLine("Largest Sum value is "+ largestSum);
+
+RotateStringClass obj = new RotateStringClass();
+string  s = "abcde", goal = "cdeab";
+obj.RotateString(s,s);
