@@ -17,6 +17,7 @@ int[][]  grid = {new int[] {2,4,3,5},
 
 
 using System.Numerics;
+using System.Runtime.ExceptionServices;
 
 // MinDistanceRobot b=new MinDistanceRobot();
 // List<int> lst= new List<int>();
@@ -39,6 +40,45 @@ using System.Numerics;
 
 // Console.WriteLine("Largest Sum value is "+ largestSum);
 
-RotateStringClass obj = new RotateStringClass();
-string  s = "abcde", goal = "cdeab";
-obj.RotateString(s,s);
+// RotateStringClass obj = new RotateStringClass();
+// string  s = "abcde", goal = "cdeab";
+// obj.RotateString(s,s);
+
+var lstNumbers = new List<int>() { 8,7,9,1,2,2,4,5,6,6};
+var lstEmpty = new List<int>(){};
+
+var distinctNum = lstNumbers.Distinct();
+var filterEven = lstNumbers.Where(x => x % 2 == 0);
+var filterOdd  = lstNumbers.Where(x => x % 2 != 0);
+
+var numAsc =  lstNumbers.OrderBy(x => x);
+var numDesc = lstNumbers.OrderByDescending(x => x);
+
+var first = lstNumbers.FirstOrDefault();
+var firstEmpty = lstEmpty.FirstOrDefault();
+
+foreach(var a in distinctNum){
+Console.WriteLine("Numbers are "+ a);
+}
+
+foreach(var a in filterEven){
+  Console.WriteLine("Even numbers are " + a);
+}
+
+foreach(var a in filterOdd){
+  Console.WriteLine("Odd numbers are " + a);
+}
+
+foreach(var a in numAsc){
+  Console.WriteLine("Asc numbers are " + a);
+}
+
+foreach(var a in numDesc){
+  Console.WriteLine("Desc numbers are " + a);
+}
+
+
+Console.WriteLine("First " + first);
+Console.WriteLine("First Empty " + firstEmpty);
+
+
