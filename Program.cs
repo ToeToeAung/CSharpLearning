@@ -57,6 +57,9 @@ var numDesc = lstNumbers.OrderByDescending(x => x);
 var first = lstNumbers.FirstOrDefault();
 var firstEmpty = lstEmpty.FirstOrDefault();
 
+var last = lstNumbers.LastOrDefault();
+var lastEmpty = lstEmpty.LastOrDefault();
+
 foreach(var a in distinctNum){
 Console.WriteLine("Numbers are "+ a);
 }
@@ -81,4 +84,10 @@ foreach(var a in numDesc){
 Console.WriteLine("First " + first);
 Console.WriteLine("First Empty " + firstEmpty);
 
+Console.WriteLine("Last " + last);
+Console.WriteLine("Last Empty " + lastEmpty);
 
+
+var checkEven = lstNumbers.Any(x => x % 2 == 0);
+
+Console.WriteLine("CHeck Eveny with Any " + checkEven);
