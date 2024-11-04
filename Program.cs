@@ -44,61 +44,68 @@ using System.Runtime.ExceptionServices;
 // string  s = "abcde", goal = "cdeab";
 // obj.RotateString(s,s);
 
-var lstNumbers = new List<int>() { 8,7,9,1,2,2,4,5,6,6};
-var lstEmpty = new List<int>(){};
-var lstNotEvens =new List<int>() {3,5,7,,9};
+// var lstNumbers = new List<int>() { 8,7,9,1,2,2,4,5,6,6};
+// var lstEmpty = new List<int>(){};
+// var lstNotEvens =new List<int>() {3,5,7,,9};
 
-var distinctNum = lstNumbers.Distinct();
-var filterEven = lstNumbers.Where(x => x % 2 == 0);
-var filterOdd  = lstNumbers.Where(x => x % 2 != 0);
+// var distinctNum = lstNumbers.Distinct();
+// var filterEven = lstNumbers.Where(x => x % 2 == 0);
+// var filterOdd  = lstNumbers.Where(x => x % 2 != 0);
 
-var numAsc =  lstNumbers.OrderBy(x => x);
-var numDesc = lstNumbers.OrderByDescending(x => x);
+// var numAsc =  lstNumbers.OrderBy(x => x);
+// var numDesc = lstNumbers.OrderByDescending(x => x);
 
-var first = lstNumbers.FirstOrDefault();
-var firstEmpty = lstEmpty.FirstOrDefault();
+// var first = lstNumbers.FirstOrDefault();
+// var firstEmpty = lstEmpty.FirstOrDefault();
 
-var last = lstNumbers.LastOrDefault();
-var lastEmpty = lstEmpty.LastOrDefault();
+// var last = lstNumbers.LastOrDefault();
+// var lastEmpty = lstEmpty.LastOrDefault();
 
-foreach(var a in distinctNum){
-Console.WriteLine("Numbers are "+ a);
-}
+// foreach(var a in distinctNum){
+// Console.WriteLine("Numbers are "+ a);
+// }
 
-foreach(var a in filterEven){
-  Console.WriteLine("Even numbers are " + a);
-}
+// foreach(var a in filterEven){
+//   Console.WriteLine("Even numbers are " + a);
+// }
 
-foreach(var a in filterOdd){
-  Console.WriteLine("Odd numbers are " + a);
-}
+// foreach(var a in filterOdd){
+//   Console.WriteLine("Odd numbers are " + a);
+// }
 
-foreach(var a in numAsc){
-  Console.WriteLine("Asc numbers are " + a);
-}
+// foreach(var a in numAsc){
+//   Console.WriteLine("Asc numbers are " + a);
+// }
 
-foreach(var a in numDesc){
-  Console.WriteLine("Desc numbers are " + a);
-}
-
-
-Console.WriteLine("First " + first);
-Console.WriteLine("First Empty " + firstEmpty);
-
-Console.WriteLine("Last " + last);
-Console.WriteLine("Last Empty " + lastEmpty);
+// foreach(var a in numDesc){
+//   Console.WriteLine("Desc numbers are " + a);
+// }
 
 
-var checkEven = lstNumbers.Any(x => x % 2 == 0);
-var checkEven1 = lstNotEvens.Any(x => x % 2 == 0);
-Console.WriteLine("CHeck Eveny with Any 1" + checkEven);
+// Console.WriteLine("First " + first);
+// Console.WriteLine("First Empty " + firstEmpty);
 
-Console.WriteLine("CHeck Eveny with Any  2" + checkEven1);
+// Console.WriteLine("Last " + last);
+// Console.WriteLine("Last Empty " + lastEmpty);
 
 
-var checkAll= lstNumbers.All(x => x % 2 != 0);
-var checkAll1 = lstNotEvens.All(x => x % 2 != 0);
+// var checkEven = lstNumbers.Any(x => x % 2 == 0);
+// var checkEven1 = lstNotEvens.Any(x => x % 2 == 0);
+// Console.WriteLine("CHeck Eveny with Any 1" + checkEven);
 
-Console.WriteLine("CHeck Eveny with All 1" + checkAll);
+// Console.WriteLine("CHeck Eveny with Any  2" + checkEven1);
 
-Console.WriteLine("CHeck Eveny with All  2" + checkAll1);
+
+// var checkAll= lstNumbers.All(x => x % 2 != 0);
+// var checkAll1 = lstNotEvens.All(x => x % 2 != 0);
+
+// Console.WriteLine("CHeck Eveny with All 1" + checkAll);
+
+// Console.WriteLine("CHeck Eveny with All  2" + checkAll1);
+
+
+StringCompression obj=new StringCompression();
+string word = "abcde";
+string result =obj.CompressedString(word);
+
+Console.WriteLine("Result "+ result);
