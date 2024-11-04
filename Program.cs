@@ -104,8 +104,15 @@ using System.Runtime.ExceptionServices;
 // Console.WriteLine("CHeck Eveny with All  2" + checkAll1);
 
 
-StringCompression obj=new StringCompression();
-string word = "abcde";
-string result =obj.CompressedString(word);
+// StringCompression obj=new StringCompression();
+// string word = "abcde";
+// string result =obj.CompressedString(word);
 
-Console.WriteLine("Result "+ result);
+// Console.WriteLine("Result "+ result);
+
+SplitArrayintoConsecutiveSubsequences obj =new SplitArrayintoConsecutiveSubsequences();
+int[] nums = {1,2,3,3,4,4,5,5};
+bool flag=false;
+flag=obj.IsPossible(nums);
+
+Console.WriteLine("Is possible to split arrays "+ flag);
