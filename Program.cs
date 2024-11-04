@@ -46,6 +46,7 @@ using System.Runtime.ExceptionServices;
 
 var lstNumbers = new List<int>() { 8,7,9,1,2,2,4,5,6,6};
 var lstEmpty = new List<int>(){};
+var lstNotEvens =new List<int>() {3,5,7,,9};
 
 var distinctNum = lstNumbers.Distinct();
 var filterEven = lstNumbers.Where(x => x % 2 == 0);
@@ -89,5 +90,7 @@ Console.WriteLine("Last Empty " + lastEmpty);
 
 
 var checkEven = lstNumbers.Any(x => x % 2 == 0);
+var checkEven1 = lstNotEvens.Any(x => x % 2 == 0);
+Console.WriteLine("CHeck Eveny with Any 1" + checkEven);
 
-Console.WriteLine("CHeck Eveny with Any " + checkEven);
+Console.WriteLine("CHeck Eveny with Any  2" + checkEven1);
