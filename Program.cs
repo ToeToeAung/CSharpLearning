@@ -94,3 +94,11 @@ var checkEven1 = lstNotEvens.Any(x => x % 2 == 0);
 Console.WriteLine("CHeck Eveny with Any 1" + checkEven);
 
 Console.WriteLine("CHeck Eveny with Any  2" + checkEven1);
+
+
+var checkAll= lstNumbers.All(x => x % 2 != 0);
+var checkAll1 = lstNotEvens.All(x => x % 2 != 0);
+
+Console.WriteLine("CHeck Eveny with All 1" + checkAll);
+
+Console.WriteLine("CHeck Eveny with All  2" + checkAll1);
