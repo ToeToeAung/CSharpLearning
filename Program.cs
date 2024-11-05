@@ -110,9 +110,16 @@ using System.Runtime.ExceptionServices;
 
 // Console.WriteLine("Result "+ result);
 
-SplitArrayintoConsecutiveSubsequences obj =new SplitArrayintoConsecutiveSubsequences();
-int[] nums = {1,2,3,3,4,4,5,5};
-bool flag=false;
-flag=obj.IsPossible(nums);
+// SplitArrayintoConsecutiveSubsequences obj =new SplitArrayintoConsecutiveSubsequences();
+// int[] nums = {1,2,3,3,4,4,5,5};
+// bool flag=false;
+// flag=obj.IsPossible(nums);
 
-Console.WriteLine("Is possible to split arrays "+ flag);
+// Console.WriteLine("Is possible to split arrays "+ flag);
+
+MakeBinaryStringBeautiful obj =new MakeBinaryStringBeautiful();
+int result =0;
+string  s = "1001";
+result = obj.MinChanges(s);
+
+Console.WriteLine("Result of Min Changes is " + result);
