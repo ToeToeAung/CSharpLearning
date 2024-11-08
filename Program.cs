@@ -117,9 +117,27 @@ using System.Runtime.ExceptionServices;
 
 // Console.WriteLine("Is possible to split arrays "+ flag);
 
-MakeBinaryStringBeautiful obj =new MakeBinaryStringBeautiful();
-int result =0;
-string  s = "1001";
-result = obj.MinChanges(s);
+// MakeBinaryStringBeautiful obj =new MakeBinaryStringBeautiful();
+// int result =0;
+// string  s = "1001";
+// result = obj.MinChanges(s);
 
-Console.WriteLine("Result of Min Changes is " + result);
+// Console.WriteLine("Result of Min Changes is " + result);
+
+
+MaxNumXOr obj =new MaxNumXOr();
+
+
+int[] nums= {0,1,1,3};
+int[] result =new int[nums.Length];
+result = obj.GetMaximumXor(nums,2);
+foreach(var x in result){
+Console.WriteLine("Result of Min Changes is " + x);
+}
+
+
+LargestCombinationClass obj1 =new LargestCombinationClass();
+int[] candidates = {6,17,71,62,12,24,14};
+int result1=obj1.LargestCombination(candidates);
+
+Console.WriteLine("Largest Combination " + result1);
