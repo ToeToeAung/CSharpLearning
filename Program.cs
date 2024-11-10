@@ -128,16 +128,21 @@ using System.Runtime.ExceptionServices;
 MaxNumXOr obj =new MaxNumXOr();
 
 
-int[] nums= {0,1,1,3};
-int[] result =new int[nums.Length];
-result = obj.GetMaximumXor(nums,2);
-foreach(var x in result){
-Console.WriteLine("Result of Min Changes is " + x);
-}
+// int[] nums= {0,1,1,3};
+// int[] result =new int[nums.Length];
+// result = obj.GetMaximumXor(nums,2);
+// foreach(var x in result){
+// Console.WriteLine("Result of Min Changes is " + x);
+// }
 
 
-LargestCombinationClass obj1 =new LargestCombinationClass();
-int[] candidates = {6,17,71,62,12,24,14};
-int result1=obj1.LargestCombination(candidates);
+// LargestCombinationClass obj1 =new LargestCombinationClass();
+// int[] candidates = {6,17,71,62,12,24,14};
+// int result1=obj1.LargestCombination(candidates);
 
-Console.WriteLine("Largest Combination " + result1);
+// Console.WriteLine("Largest Combination " + result1);
+
+ShortestSubarrayWithORatLeastKII obj1 =new ShortestSubarrayWithORatLeastKII();
+int[] nums = {1,2,3};int k = 2;
+int minNo=obj1.MinimumSubarrayLength(nums,2);
+Console.WriteLine("Minimum Sub Array Length " + minNo);
