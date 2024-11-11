@@ -142,7 +142,15 @@ MaxNumXOr obj =new MaxNumXOr();
 
 // Console.WriteLine("Largest Combination " + result1);
 
-ShortestSubarrayWithORatLeastKII obj1 =new ShortestSubarrayWithORatLeastKII();
-int[] nums = {1,2,3};int k = 2;
-int minNo=obj1.MinimumSubarrayLength(nums,2);
-Console.WriteLine("Minimum Sub Array Length " + minNo);
+// ShortestSubarrayWithORatLeastKII obj1 =new ShortestSubarrayWithORatLeastKII();
+// int[] nums = {1,2,3};int k = 2;
+// int minNo=obj1.MinimumSubarrayLength(nums,2);
+// Console.WriteLine("Minimum Sub Array Length " + minNo);
+
+PrimeSubtractionOperation obj1 =new PrimeSubtractionOperation();
+int[] nums = {4,9,6,10};
+obj1.PrimeSubOperation(nums);
+
+foreach(int num in nums){
+Console.WriteLine("Numbers "+ num);
+}
