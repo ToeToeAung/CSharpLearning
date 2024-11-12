@@ -125,7 +125,7 @@ using System.Runtime.ExceptionServices;
 // Console.WriteLine("Result of Min Changes is " + result);
 
 
-MaxNumXOr obj =new MaxNumXOr();
+//MaxNumXOr obj =new MaxNumXOr();
 
 
 // int[] nums= {0,1,1,3};
@@ -149,8 +149,8 @@ MaxNumXOr obj =new MaxNumXOr();
 
 PrimeSubtractionOperation obj1 =new PrimeSubtractionOperation();
 int[] nums = {4,9,6,10};
-obj1.PrimeSubOperation(nums);
+bool flag =obj1.PrimeSubOperation(nums);
 
-foreach(int num in nums){
-Console.WriteLine("Numbers "+ num);
-}
+//foreach(int num in nums){
+Console.WriteLine("Result  "+ flag);
+//}
