@@ -147,10 +147,16 @@ using System.Runtime.ExceptionServices;
 // int minNo=obj1.MinimumSubarrayLength(nums,2);
 // Console.WriteLine("Minimum Sub Array Length " + minNo);
 
-PrimeSubtractionOperation obj1 =new PrimeSubtractionOperation();
-int[] nums = {4,9,6,10};
-bool flag =obj1.PrimeSubOperation(nums);
+// PrimeSubtractionOperation obj1 =new PrimeSubtractionOperation();
+// int[] nums = {4,9,6,10};
+// bool flag =obj1.PrimeSubOperation(nums);
 
 //foreach(int num in nums){
-Console.WriteLine("Result  "+ flag);
+//onsole.WriteLine("Result  "+ flag);
 //}
+
+CounttheNumberofFairPairs obj =new CounttheNumberofFairPairs();
+int[] nums = {0,1,7,4,4,5}, lower = 3, upper = 6;
+long result =obj.CountFairPairs(nums,lower,upper);
+
+Console.WriteLine("The result is "+ result);
