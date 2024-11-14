@@ -155,8 +155,16 @@ using System.Runtime.ExceptionServices;
 //onsole.WriteLine("Result  "+ flag);
 //}
 
-CounttheNumberofFairPairs obj =new CounttheNumberofFairPairs();
-int[] nums = {0,1,7,4,4,5}, lower = 3, upper = 6;
-long result =obj.CountFairPairs(nums,lower,upper);
+// CounttheNumberofFairPairs obj =new CounttheNumberofFairPairs();
+// int[] nums = {0,1,7,4,4,5}, lower = 3, upper = 6;
+// long result =obj.CountFairPairs(nums,lower,upper);
+
+// Console.WriteLine("The result is "+ result);
+
+MinimizedMaximumClass obj=new MinimizedMaximumClass();
+
+ int n = 6;
+ int[] quantities = {11,6};
+int result = obj.MinimizedMaximum(6,quantities);
 
 Console.WriteLine("The result is "+ result);
