@@ -161,10 +161,17 @@ using System.Runtime.ExceptionServices;
 
 // Console.WriteLine("The result is "+ result);
 
-MinimizedMaximumClass obj=new MinimizedMaximumClass();
+// MinimizedMaximumClass obj=new MinimizedMaximumClass();
 
- int n = 6;
- int[] quantities = {11,6};
-int result = obj.MinimizedMaximum(6,quantities);
+//  int n = 6;
+//  int[] quantities = {11,6};
+// int result = obj.MinimizedMaximum(6,quantities);
 
-Console.WriteLine("The result is "+ result);
+// Console.WriteLine("The result is "+ result);
+
+ShortestSubarrayToBeRemovedMakeArraySorted obj =new ShortestSubarrayToBeRemovedMakeArraySorted();
+int result =0;
+int[] arr= {1,2,3,10,4,2,3,5};
+result=obj.FindLengthOfShortestSubarray(arr);
+
+Console.WriteLine("The result is " + result);
