@@ -169,9 +169,14 @@ using System.Runtime.ExceptionServices;
 
 // Console.WriteLine("The result is "+ result);
 
-ShortestSubarrayToBeRemovedMakeArraySorted obj =new ShortestSubarrayToBeRemovedMakeArraySorted();
-int result =0;
-int[] arr= {1,2,3,10,4,2,3,5};
-result=obj.FindLengthOfShortestSubarray(arr);
+// ShortestSubarrayToBeRemovedMakeArraySorted obj =new ShortestSubarrayToBeRemovedMakeArraySorted();
+// int result =0;
+// int[] arr= {1,2,3,10,4,2,3,5};
+// result=obj.FindLengthOfShortestSubarray(arr);
 
-Console.WriteLine("The result is " + result);
+// Console.WriteLine("The result is " + result);
+ShortestSubArrayWithSumAtLeastK obj=new ShortestSubArrayWithSumAtLeastK();
+int [] nums = {1,2}; int k = 4;
+int result= obj.ShortestSubarray(nums,k);
+
+Console.WriteLine("Result " + result);
