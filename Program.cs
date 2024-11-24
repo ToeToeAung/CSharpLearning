@@ -175,8 +175,17 @@ using System.Runtime.ExceptionServices;
 // result=obj.FindLengthOfShortestSubarray(arr);
 
 // Console.WriteLine("The result is " + result);
-ShortestSubArrayWithSumAtLeastK obj=new ShortestSubArrayWithSumAtLeastK();
-int [] nums = {1,2}; int k = 4;
-int result= obj.ShortestSubarray(nums,k);
+// ShortestSubArrayWithSumAtLeastK obj=new ShortestSubArrayWithSumAtLeastK();
+// int [] nums = {1,2}; int k = 4;
+// int result= obj.ShortestSubarray(nums,k);
 
-Console.WriteLine("Result " + result);
+// Console.WriteLine("Result " + result);
+
+
+MaximumMatrixSum obj=new MaximumMatrixSum();
+ int[][] matrix = {
+            new int[] { 1, 2, 3 },  
+            new int[] { 4, 5, 6 },  
+            new int[] { 7, 8, 9 }   
+        };
+long result =obj.MaxMatrixSum(matrix);

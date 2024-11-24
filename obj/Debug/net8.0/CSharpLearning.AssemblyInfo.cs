@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CSharpLearning")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fcd93fdf53ddf06ad83ea8edcabb21b3f1dba4b3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+097673d1b00c91dcb4e4080f90a812a87d7e7d17")]
 [assembly: System.Reflection.AssemblyProductAttribute("CSharpLearning")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CSharpLearning")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
