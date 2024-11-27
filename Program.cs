@@ -190,10 +190,23 @@ using System.Runtime.ExceptionServices;
 //         };
 // long result =obj.MaxMatrixSum(matrix);
 
-SlidingPuzzleClass obj=new SlidingPuzzleClass();
-int[][] board = new int[2][];
-board[0] = new int[] { 1, 2, 3 };
-board[1] = new int[] { 4, 0, 5 };
-int result =obj.SlidingPuzzle(board);
+// SlidingPuzzleClass obj=new SlidingPuzzleClass();
+// int[][] board = new int[2][];
+// board[0] = new int[] { 1, 2, 3 };
+// board[1] = new int[] { 4, 0, 5 };
+// int result =obj.SlidingPuzzle(board);
 
-Console.WriteLine("Result " +result);
+// Console.WriteLine("Result " +result);
+int n = 5; 
+int[][] queries = new int[][] 
+{
+    new int[] { 2, 4 },
+    new int[] { 0, 2 },
+    new int[] { 0, 4 }
+};
+ShortestDistanceAfterRoadAdditionQueriesI obj=new ShortestDistanceAfterRoadAdditionQueriesI();
+int[] result =obj.ShortestDistanceAfterQueries(n,queries);
+
+foreach(int i in result){
+  Console.WriteLine("Result are " +i);
+}
