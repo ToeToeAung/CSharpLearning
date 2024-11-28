@@ -197,16 +197,15 @@ using System.Runtime.ExceptionServices;
 // int result =obj.SlidingPuzzle(board);
 
 // Console.WriteLine("Result " +result);
-int n = 5; 
-int[][] queries = new int[][] 
-{
-    new int[] { 2, 4 },
-    new int[] { 0, 2 },
-    new int[] { 0, 4 }
-};
-ShortestDistanceAfterRoadAdditionQueriesI obj=new ShortestDistanceAfterRoadAdditionQueriesI();
-int[] result =obj.ShortestDistanceAfterQueries(n,queries);
 
-foreach(int i in result){
-  Console.WriteLine("Result are " +i);
-}
+int[][] grid = new int[][] 
+{
+    new int[] { 0,1,1 },
+    new int[] { 1,1,0 },
+    new int[] { 1,1,0}
+};
+MinimumObstacleRemovaltoReachCorner obj=new MinimumObstacleRemovaltoReachCorner();
+int result =obj.MinimumObstacles(grid);
+
+
+  Console.WriteLine("Result is " +result);
