@@ -198,14 +198,28 @@ using System.Runtime.ExceptionServices;
 
 // Console.WriteLine("Result " +result);
 
-int[][] grid = new int[][] 
-{
-    new int[] { 0,1,1 },
-    new int[] { 1,1,0 },
-    new int[] { 1,1,0}
+// int[][] grid = new int[][] 
+// {
+//     new int[] { 0,1,1 },
+//     new int[] { 1,1,0 },
+//     new int[] { 1,1,0}
+// };
+// MinimumObstacleRemovaltoReachCorner obj=new MinimumObstacleRemovaltoReachCorner();
+// int result =obj.MinimumObstacles(grid);
+
+
+//   Console.WriteLine("Result is " +result);
+
+
+
+int[][] grid =new int[][]  {
+    new int[] { 0, 1, 3, 2 },
+    new int[] { 5, 1, 2, 5 },
+    new int[] { 4, 3, 8, 6 }
 };
-MinimumObstacleRemovaltoReachCorner obj=new MinimumObstacleRemovaltoReachCorner();
-int result =obj.MinimumObstacles(grid);
 
 
-  Console.WriteLine("Result is " +result);
+MinimumTimetoVisitaCellInaGrid obj=new MinimumTimetoVisitaCellInaGrid();
+int result=obj.MinimumTime(grid);
+
+Console.WriteLine("Result is " + result);
