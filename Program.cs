@@ -212,14 +212,29 @@ using System.Runtime.ExceptionServices;
 
 
 
-int[][] grid =new int[][]  {
-    new int[] { 0, 1, 3, 2 },
-    new int[] { 5, 1, 2, 5 },
-    new int[] { 4, 3, 8, 6 }
-};
+// int[][] grid =new int[][]  {
+//     new int[] { 0, 1, 3, 2 },
+//     new int[] { 5, 1, 2, 5 },
+//     new int[] { 4, 3, 8, 6 }
+// };
 
 
-MinimumTimetoVisitaCellInaGrid obj=new MinimumTimetoVisitaCellInaGrid();
-int result=obj.MinimumTime(grid);
+// MinimumTimetoVisitaCellInaGrid obj=new MinimumTimetoVisitaCellInaGrid();
+// int result=obj.MinimumTime(grid);
 
-Console.WriteLine("Result is " + result);
+// Console.WriteLine("Result is " + result);
+
+
+SpecialArray obj=new SpecialArray();
+
+ int[] nums = { 3,4,1,2,6};
+        int[][] queries = new int[][]
+        {
+            new int[] { 0, 4 } //, 
+           // new int[] { 1, 3 }  
+        };
+
+var result = obj.IsArraySpecial(nums, queries);
+
+Console.WriteLine(result[0]);
+  
